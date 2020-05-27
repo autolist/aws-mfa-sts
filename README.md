@@ -5,7 +5,7 @@ require MFA.
 
 ## Installation
 
-`go get github.com/mtchavez/aws-mfa-sts`
+`go get github.com/autolist/aws-mfa-sts`
 
 or download from the [latest release][releases] files.
 
@@ -59,4 +59,4 @@ call things as normal `aws s3 ls`
 If you use the `-profile` command the generated STS profile will be prepended
 with the profile name e.g `api-user` will generate `api-user-sts`.
 
-[releases]: https://github.com/mtchavez/aws-mfa-sts/releases
+[releases]: https://github.com/autolist/aws-mfa-sts/releases
